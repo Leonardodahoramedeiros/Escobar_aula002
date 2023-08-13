@@ -1,0 +1,12 @@
+package Solid_aula2;
+
+public class cartao_senff extends cartao_base{
+	
+	@Override
+	private boolean ValidadaData() {
+		return true;
+		
+	}
+
+
+}

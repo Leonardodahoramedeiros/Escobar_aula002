@@ -1,0 +1,9 @@
+package Solid_aula2;
+
+public class servico_financeiro {
+	
+	public boolean pagar() {
+		
+	}
+
+}

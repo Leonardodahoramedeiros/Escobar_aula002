@@ -1,0 +1,10 @@
+package Faculdade;
+
+public class Consumidor_turma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package Solid_aula2;
+
+public class teste_pagamento {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		cartao_de_credito cc = new cartao_de_credito();
+		venda v = new venda();
+		
+		cc.nome="Pedro de lara";
+		cc.numero="1234";
+		cc.data_validade="08/2030";
+		cc.ValorCobrado = 10100;
+		if(v.Processar_pagamento(cc)) {
+			System.out.println("Compra cconfirmada");
+		}else {
+			System.out.println("Compra recusada");
+		}			
+	}
+
+}

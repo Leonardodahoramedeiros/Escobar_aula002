@@ -1,0 +1,20 @@
+package Faculdade;
+
+public class Consumidor_turma {
+
+	public static void main(String[] args) {
+		
+		Aluno a;
+		Professor prof = new Professor();
+		Turma turma = new Turma();
+		
+		prof.nome="Leonardo";
+		prof.cpf="111";
+		prof.matricula="000";
+		
+		
+	
+
+	}
+
+}

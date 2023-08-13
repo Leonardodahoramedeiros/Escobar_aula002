@@ -1,0 +1,34 @@
+package bd;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.ResultSet;
+
+
+import modelos.ServicosContratados;
+import java.util.ArrayList;
+import java.util.List;
+
+
+	public class EfetuadosDAO {
+	    private List<ServicosContratados> servicosContratadosList;
+
+	    public EfetuadosDAO() {
+	        servicosContratadosList = new ArrayList<>();
+	    }
+
+	    public void salvarServicosContratados(ServicosContratados servicosContratados) {
+	        servicosContratadosList.add(servicosContratados);
+	    }
+
+	    public List<ServicosContratados> obterServicosContratados() {
+	        return servicosContratadosList;
+	    }
+	    
+	}
+
+
+
+
+

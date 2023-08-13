@@ -1,0 +1,19 @@
+package faculdade;
+
+import java.util.ArrayList;
+
+public class Turma {
+	
+	
+	Professor professor;
+	
+	ArrayList<Aluno> aluno = new ArrayList<Aluno>();
+	
+	ArrayList<String> Consultar_nomes(){
+		
+		ArrayList<String> nomes = new ArrayList<String>();
+		
+		
+	}return nomes;
+
+}

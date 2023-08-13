@@ -1,0 +1,17 @@
+package Solid_aula2;
+
+public class Venda {
+	
+	public double valor_a_cobrar; //atributo provisório
+	public boolean Processar_pagamento(cartao_de_credito cartao) {
+		boolean resultado = false;
+		if(cartao.ValidadaData()&&
+			cartao.ValidadaNome()&&
+			cartao.ValidadaNumero()){
+				resultado = true;
+			}else {
+				resultado = false;
+			}
+	}
+
+}

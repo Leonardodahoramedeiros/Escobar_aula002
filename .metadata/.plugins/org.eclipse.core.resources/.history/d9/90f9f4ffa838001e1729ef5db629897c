@@ -1,0 +1,16 @@
+package Solid_aula2;
+
+public class boleto {
+	
+	public String nosso_numero;
+	public String data_vencimento;
+	public double valor;
+	
+	public boolean processar() {
+		
+		//codigo para processar pagamento 
+		//chamar api do banco emissor do boleto
+		return true;			
+	}
+
+}
