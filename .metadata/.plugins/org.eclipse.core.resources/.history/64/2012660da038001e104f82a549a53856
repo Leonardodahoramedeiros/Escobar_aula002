@@ -1,5 +1,0 @@
-package Solid_aula2;
-
-public class cartao_senff extends cartao_base{
-
-}

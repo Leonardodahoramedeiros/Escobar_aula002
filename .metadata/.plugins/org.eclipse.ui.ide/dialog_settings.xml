@@ -11,6 +11,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Leonardo\Desktop\faculdade\faculdade"/>
+			<item value="C:\Users\Leonardo\Desktop\faculdade"/>
 			<item value="C:\Users\Leonardo\Desktop\exercicio_hierarquia"/>
 			<item value="C:\Users\Leonardo\Documents\Aula\sistemaMatricula"/>
 			<item value="C:\Users\Leonardo\Desktop\Coisas (2).zip"/>
