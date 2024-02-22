@@ -15,14 +15,13 @@ public class Marcas {
 	public void adicionarCarro(Carros carros) {
 		carro.add(carros);
 	}
-	public void exibirLista() {
+	
+	public void exibirLista() {			
 		System.out.println("O nome da marca é: " + NomeMarca);
 		for(Carros carros : carro) {
-			System.out.println("O nome do carro é: " + carros.Nome);
+			System.out.println("O nome do carro é: " + carros.Nome_carro);
 			System.out.println("A cor do carro é: " + carros.Cor);
 			System.out.println();
 		}
 	}
-	
-
 }
